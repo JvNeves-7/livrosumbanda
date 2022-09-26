@@ -1,0 +1,152 @@
+body {
+    font-family: 'Bebas Neue',cursive;
+    text-align:center;
+    background-color: #000000;
+    background: url(https://tandemcontracting.com/wp-content/uploads/2018/04/Fotolia_143787137_Subscription_Monthly_M.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #DA1E26;
+    font-size: 75px;
+    margin: 0 0 5px;
+    text-shadow: 0 0 10px black;
+  }
+
+  .page-title2 {
+    color: #3dda1e;
+    font-size: 75px;
+    margin: 0 0 5px;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 5px;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .new-category {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .categories {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .page-logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  .holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .start button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    visibility: visible;
+  }
+  
+  .start button:hover {
+    opacity: 0.8;
+  }
+  
+  #listaLivros img {
+    margin: 10px;
+    max-height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  #listaLivros img:hover{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 8px solid #DA1E26;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition:transform 1s ease;
+    transform:translateX(-300px);
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+    visibility: hidden;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    visibility: hidden;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    visibility:hidden;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  .capas{
+    margin:10px;
+    margin-bottom:20px;
+  }
+  
+  .capas:hover{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  /*   animation-name: example;
+    animation-duration: 0.25s; */
+    border-left: 8px solid #DA1E26;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /*   transition:transform 1s ease; */
+  /*   transform:translateX(-300px); */
+    position: relative;
+    transition: 0.3s;
+  }
